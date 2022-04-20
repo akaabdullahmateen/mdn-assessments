@@ -1,0 +1,19 @@
+html {
+  font-family: sans-serif;
+}
+
+p {
+  /* Since the root element font-size is set to 16px by default, to achieve our 17-18px font-size inside <p>, we need a multiplier of 1.1 */
+  font-size: 1.1rem;
+  font-family: cursive;
+  inline-size: 13rem;
+  block-size: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #f30000;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  border: 1px solid #9f1919;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%), #f30000;
+  box-shadow: 4px 4px 8px black, inset 4px 4px 4px rgba(255, 255, 255, 0.5), inset -4px -4px 4px rgba(0, 0, 0, 0.5);
+}

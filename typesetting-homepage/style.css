@@ -1,0 +1,169 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: "Abhaya";
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* Header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* Typesetting */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h1,
+h2 {
+  font-family: "Agane";
+  letter-spacing: 0.1em;
+}
+
+p,
+ul li,
+ol li,
+a {
+  font-size: 2rem;
+  line-height: 2;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+section h2 + p {
+  text-indent: 1em;
+}
+
+/* Links decoration */
+
+a,
+a:link,
+a:visited,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: #a66;
+  padding: 2px;
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+a:active {
+  color: #fff;
+  background-color: #a66;
+}
+
+a[href^="http"] {
+  background-image: url("external-link-52.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 16px;
+  padding-right: 20px;
+}
+
+/* Spacing correction */
+
+p,
+ul,
+ol {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+/* List styling */
+
+ol {
+  list-style: upper-roman;
+}
+
+ul {
+  list-style: square;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+}
+
+nav li,
+nav a {
+  width: 100%;
+  height: 4em;
+  line-height: 4em;
+}
+
+nav li {
+  margin-bottom: 0.4em;
+}
+
+nav li:last-child {
+  margin-bottom: 0;
+}
+
+nav a:any-link {
+  display: inline-block;
+  padding-inline: 2em;
+  background-color: #a66;
+  color: #fff;
+  border-bottom: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #b77;
+}
+
+nav a:active {
+  background-color: #955;
+}

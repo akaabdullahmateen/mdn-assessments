@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Abhaya";
+  src: url("fonts/abhaya/abhayalibre-medium-webfont.woff2") format("woff2"),
+    url("fonts/abhaya/abhayalibre-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agane";
+  src: url("fonts/agane/agane_65_bold-webfont.woff2") format("woff2"), url("fonts/agane/agane_65_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
