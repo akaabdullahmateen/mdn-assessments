@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Math: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <section class="preview"></section>
+  </body>
+  <script>
+    let finalResult;
+
+    let evenOddResult;
+
+    // Add your code here
+
+    let num1 = 8;
+    let num2 = 4;
+    let num3 = 5;
+    let num4 = 9;
+
+    let partialSum = num1 + num2; // 12 = 8 + 4
+    let partialDifference = num4 - num3; // 4 = 9 - 5
+
+    finalResult = partialSum * partialDifference; // 48 = 12 * 4
+
+    evenOddResult = finalResult % 2; // If finalResult is even, evenOddResult === 0, else, evenOddResult !== 0
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector("section");
+
+    const para1 = document.createElement("p");
+    const finalResultCheck = finalResult === 48 ? `Yes, well done!` : `No, it is ${finalResult}`;
+    para1.textContent = `Is the finalResult 48? ${finalResultCheck}`;
+    const para2 = document.createElement("p");
+    const evenOddResultCheck = evenOddResult === 0 ? "The final result is even!" : "The final result is odd. Hrm.";
+    para2.textContent = evenOddResultCheck;
+
+    section.appendChild(para1);
+    section.appendChild(para2);
+  </script>
+</html>
