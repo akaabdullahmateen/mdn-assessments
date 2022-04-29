@@ -24,6 +24,15 @@
 
     // Add your code here
 
+    const lower = quote.toLowerCase();
+    const firstLetter = lower.slice(0, 1);
+    let fixedQuote = lower.replace(firstLetter, firstLetter.toUpperCase());
+
+    const substring = "green eggs and ham";
+    fixedQuote = fixedQuote.replace(substring, "turnips");
+
+    const finalQuote = fixedQuote + ".";
+
     // Don't edit the code below here!
 
     const section = document.querySelector("section");
