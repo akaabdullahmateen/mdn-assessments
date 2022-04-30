@@ -21,13 +21,18 @@
   </body>
   <script>
     // Add your code here
+    const myArray = ["alpha", "beta", "gamma"];
+    myArray[0] = "NOT-alpha";
+    myArray[1] = "NOT-BETA";
+
+    myArray.unshift("UNSHIFTED");
 
     // Don't edit the code below here!
 
     const section = document.querySelector("section");
 
     let para1 = document.createElement("p");
-    para1.textContent = `Array: ${myArray}`;
+    para1.textContent = `Array: [${myArray}]`;
 
     section.appendChild(para1);
   </script>
