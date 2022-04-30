@@ -21,8 +21,15 @@
   </body>
   <script>
     const birds = ["Parrots", "Falcons", "Eagles", "Emus", "Caracaras", "Egrets"];
+    const index = birds.indexOf("Eagles");
+    birds.splice(index, 1);
 
-    // Add your code here
+    const eBirds = [];
+    for (const bird of birds) {
+      if (bird.startsWith("E")) {
+        eBirds.push(bird);
+      }
+    }
 
     // Don't edit the code below here!
 
