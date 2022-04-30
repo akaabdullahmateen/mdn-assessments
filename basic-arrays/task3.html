@@ -20,9 +20,16 @@
     <section class="preview"></section>
   </body>
   <script>
-    let myArray = ["Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat", "Juri"];
+    function modify(element, index) {
+      return `${element} (${index})`;
+    }
 
-    // Add your code here
+    let myArray = ["Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat", "Juri"];
+    myArray.pop();
+    myArray.push("NEW-ITEM-1", "NEW-ITEM-2");
+
+    myArray = myArray.map(modify);
+    const myString = myArray.join("-");
 
     // Don't edit the code below here!
 
