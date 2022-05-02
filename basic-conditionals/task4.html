@@ -28,6 +28,14 @@
 
     // Add your code here
 
+    if (machineActive) {
+      machineResult = "Machine is active";
+
+      pwd === "cheese" ? (pwdResult = "User is logged in successfully!") : (pwdResult = "Login attempt was unsuccessful!");
+    } else {
+      machineResult = "Machine is NOT active";
+    }
+
     // Don't edit the code below here!
 
     const section = document.querySelector("section");
