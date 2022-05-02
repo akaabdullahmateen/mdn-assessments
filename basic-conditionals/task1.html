@@ -26,6 +26,17 @@
 
     // Add your code here
 
+    switch (season) {
+      case "summer":
+        response = "It is summer, which is a beautiful, WARM season.";
+        break;
+      case "winter":
+        response = "It is winter. Think about snowmans, carrots, and Christmas.";
+        break;
+      default:
+        response = "Unfortunately, we could not recognize what season it is.";
+    }
+
     // Don't edit the code below here!
 
     const section = document.querySelector("section");
