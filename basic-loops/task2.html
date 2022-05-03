@@ -13,7 +13,6 @@
         box-sizing: border-box;
       }
     </style>
-    <link rel="stylesheet" href="../styles.css" />
   </head>
 
   <body>
@@ -35,6 +34,15 @@
     ];
 
     // Add your code here
+
+    let iterator = 0;
+    while (iterator < phonebook.length) {
+      if (name === phonebook[iterator].name) {
+        para.textContent = `Name: ${phonebook[iterator].name} | Number: ${phonebook[iterator].number}`;
+        break;
+      }
+      iterator++;
+    }
 
     // Don't edit the code below here!
     const section = document.querySelector("section");
