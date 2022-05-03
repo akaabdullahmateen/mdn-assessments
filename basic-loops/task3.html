@@ -35,6 +35,20 @@
 
     // Add your code here
 
+    let str = "";
+
+    for (i; i > 1; i--) {
+      if (!isPrime(i)) {
+        continue;
+      }
+      str += `${i} `;
+    }
+
+    // Remove the space at the end of sentence
+
+    str = str.slice(0, str.length - 1);
+    para.textContent = str;
+
     // Don't edit the code below here!
     const section = document.querySelector("section");
     section.appendChild(para);
