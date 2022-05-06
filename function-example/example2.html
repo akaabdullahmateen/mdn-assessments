@@ -17,6 +17,52 @@
     <script>
       const input = document.querySelector(".numberInput");
       const para = document.querySelector("p");
+
+      function squared(num) {
+        return num * num;
+      }
+
+      function cubed(num) {
+        return num * num * num;
+      }
+
+      function factorial(num) {
+        if (num < 0) return undefined;
+        if (num === 0) return 1;
+
+        let x = num - 1;
+        while (x > 1) {
+          num *= x;
+          x--;
+        }
+        return num;
+      }
+
+      function sqrt(num) {
+        return Math.sqrt(num);
+      }
+
+      function cbrt(num) {
+        return Math.cbrt(num);
+      }
+
+      function circumference(num) {
+        return Math.PI * 2 * num;
+      }
+
+      input.addEventListener("change", () => {
+        const num = parseFloat(input.value);
+        if (isNaN(num)) {
+          para.textContent = "You need to enter a number!";
+        } else {
+          para.textContent = `${num} squared is ${squared(num)}, `;
+          para.textContent += `${num} cubed is ${cubed(num)}, `;
+          para.textContent += `${num} factorial is ${factorial(num)}, `;
+          para.textContent += `${num} square-root is ${sqrt(num)}, `;
+          para.textContent += `${num} cube-root is ${cbrt(num)}, `;
+          para.textContent += `And circumference of radius: ${num} is ${circumference(num)}.`;
+        }
+      });
     </script>
   </body>
 </html>
