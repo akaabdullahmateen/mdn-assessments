@@ -13,7 +13,6 @@
         box-sizing: border-box;
       }
     </style>
-    <link rel="stylesheet" href="../styles.css" />
   </head>
 
   <body>
@@ -24,6 +23,18 @@
     const para = document.createElement("p");
 
     // Add your code here
+
+    function random(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function chooseName(arr) {
+      const min = 0;
+      const max = arr.length;
+      return arr[random(min, max)];
+    }
+
+    para.textContent = chooseName(names);
 
     // Don't edit the code below here!
 
