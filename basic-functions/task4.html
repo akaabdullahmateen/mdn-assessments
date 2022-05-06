@@ -13,7 +13,6 @@
         box-sizing: border-box;
       }
     </style>
-    <link rel="stylesheet" href="../styles.css" />
   </head>
 
   <body>
@@ -23,11 +22,9 @@
     const names = ["Chris", "Li Kang", "Anne", "Francesca", "Mustafa", "Tina", "Bert", "Jada"];
     const para = document.createElement("p");
 
-    function isShort(name) {
-      return name.length < 5;
-    }
+    // We do not need return statement in single line arrow function
 
-    const shortNames = names.filter(isShort);
+    const shortNames = names.filter((name) => name.length < 5);
     para.textContent = shortNames;
 
     // Don't edit the code below here!
