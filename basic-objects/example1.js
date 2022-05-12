@@ -33,12 +33,9 @@ person.farewell = () => {
 
 console.log(person["eyes"]);
 person.farewell();
-<<<<<<< HEAD
 
 const myDataName = "height";
 const myDataValue = "1.75m";
 person.myDataName = myDataValue;
 
 console.log(person["height"]);
-=======
->>>>>>> parent of 92fe370... Added new object members
