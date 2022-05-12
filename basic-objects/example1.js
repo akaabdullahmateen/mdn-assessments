@@ -17,8 +17,8 @@ if (typeof person === "object" && person !== null) {
   console.log(person);
 }
 
-console.log(person.name);
-console.log(person.name.first);
-console.log(person.age);
+console.log(person["name"]);
+console.log(person["name"]["first"]);
+console.log(person["age"]);
 person.bio();
 person.introduceSelf();
