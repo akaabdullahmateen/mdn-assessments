@@ -25,3 +25,11 @@ console.log(person["name"]["first"]);
 console.log(person["age"]);
 person.bio();
 person.introduceSelf();
+
+person["eyes"] = "hazel";
+person.farewell = () => {
+  console.log("Bye everybody!");
+};
+
+console.log(person["eyes"]);
+person.farewell();
