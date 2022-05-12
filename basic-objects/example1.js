@@ -17,6 +17,9 @@ if (typeof person === "object" && person !== null) {
   console.log(person);
 }
 
+person.age = 45;
+person["name"]["last"] = "Cratchit";
+
 console.log(person["name"]);
 console.log(person["name"]["first"]);
 console.log(person["age"]);
