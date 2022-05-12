@@ -36,6 +36,6 @@ person.farewell();
 
 const myDataName = "height";
 const myDataValue = "1.75m";
-person.myDataName = myDataValue;
+person[myDataName] = myDataValue;
 
 console.log(person["height"]);
