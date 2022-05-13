@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Object basics: Task 2</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="preview"></section>
+  </body>
+  <script>
+    let band;
+
+    band = {
+      name: "Taylor Swift",
+      nationality: "American",
+      genre: ["Country", "Pop"],
+      members: 1,
+      formed: 2004,
+      split: false,
+    };
+
+    async function loadAlbums() {
+      fetch("albums.json")
+        .then((response) => response.json())
+        .then((arr) => {
+          band.albums = [];
+          for (const item of arr) {
+            band.albums.push(item);
+          }
+        })
+        .then(() => {
+          const bandInfo = `I am ${band.name} with ${band.nationality} nationality. I make music of ${(function foo() {
+            bar = ``;
+            for (const genre of band.genre) {
+              bar = `${bar}, ${genre.toLowerCase()}`;
+            }
+            bar = bar.slice(2);
+            return bar;
+          })()} genre. My band was formed in ${band.formed} year - active for ${new Date().getFullYear() - band.formed} years - with ${
+            band.members
+          } member(s). ${
+            band.split
+              ? `We split in ${band.split} year`
+              : `We never split as a band. One of my songs was "${band.albums[0].name}" which was released in ${band.albums[0].released} year.`
+          }`;
+
+          const section = document.querySelector("section");
+          let para1 = document.createElement("p");
+          para1.textContent = bandInfo;
+          section.appendChild(para1);
+        });
+    }
+
+    loadAlbums();
+  </script>
+</html>
