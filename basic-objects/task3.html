@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Object basics: Task 3</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="preview"></section>
+  </body>
+  <script>
+    const cat = {
+      name: "Bertie",
+      breed: "Cymric",
+      color: "white",
+      greeting: function () {
+        const msg = `Hello, said ${this.name} the ${this.breed}`;
+        console.log(msg);
+      },
+    };
+
+    const cat2 = {
+      name: "Bertie2",
+      breed: "Cymric2",
+      color: "white2",
+      greeting: function () {
+        const msg = `Hello, said ${this.name} the ${this.breed}`;
+        console.log(msg);
+      },
+    };
+
+    cat.greeting();
+    cat2.greeting();
+  </script>
+</html>
