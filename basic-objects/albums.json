@@ -1,0 +1,482 @@
+[
+  {
+    "name": "The 1",
+    "released": 2020
+  },
+  {
+    "name": "22",
+    "released": 2012
+  },
+  {
+    "name": "All Too Well",
+    "released": 2012
+  },
+  {
+    "name": "All Too Well",
+    "released": 2021
+  },
+  {
+    "name": "American Girl",
+    "released": 2009
+  },
+  {
+    "name": "The Archer",
+    "released": 2019
+  },
+  {
+    "name": "August",
+    "released": 2020
+  },
+  {
+    "name": "Babe",
+    "released": 2018
+  },
+  {
+    "name": "Babe",
+    "released": 2021
+  },
+  {
+    "name": "Back to December",
+    "released": 2010
+  },
+  {
+    "name": "Bad Blood",
+    "released": 2014
+  },
+  {
+    "name": "Bad Blood",
+    "released": 2015
+  },
+  {
+    "name": "Beautiful Ghosts",
+    "released": 2019
+  },
+  {
+    "name": "Begin Again",
+    "released": 2012
+  },
+  {
+    "name": "Bette Davis Eyes",
+    "released": 2011
+  },
+  {
+    "name": "Better Man",
+    "released": 2021
+  },
+  {
+    "name": "Betty",
+    "released": 2020
+  },
+  {
+    "name": "Big Star",
+    "released": 2017
+  },
+  {
+    "name": "Blank Space",
+    "released": 2014
+  },
+  {
+    "name": "Both of Us",
+    "released": 2012
+  },
+  {
+    "name": "Breathe",
+    "released": 2008
+  },
+  {
+    "name": "Call It What You Want",
+    "released": 2017
+  },
+  {
+    "name": "Cardigan",
+    "released": 2020
+  },
+  {
+    "name": "Champagne Problems",
+    "released": 2020
+  },
+  {
+    "name": "Change",
+    "released": 2008
+  },
+  {
+    "name": "Christmas Tree Farm",
+    "released": 2019
+  },
+  {
+    "name": "Coney Island",
+    "released": 2020
+  },
+  {
+    "name": "Cornelia Street",
+    "released": 2019
+  },
+  {
+    "name": "Crazier",
+    "released": 2009
+  },
+  {
+    "name": "Cruel Summer",
+    "released": 2019
+  },
+  {
+    "name": "Dear John",
+    "released": 2010
+  },
+  {
+    "name": "Delicate",
+    "released": 2017
+  },
+  {
+    "name": "Drops of Jupiter",
+    "released": 2011
+  },
+  {
+    "name": "Enchanted",
+    "released": 2010
+  },
+  {
+    "name": "End Game",
+    "released": 2017
+  },
+  {
+    "name": "Epiphany",
+    "released": 2020
+  },
+  {
+    "name": "Everything Has Changed",
+    "released": 2012
+  },
+  {
+    "name": "Exile",
+    "released": 2020
+  },
+  {
+    "name": "Eyes Open",
+    "released": 2012
+  },
+  {
+    "name": "Fearless",
+    "released": 2008
+  },
+  {
+    "name": "Fifteen",
+    "released": 2008
+  },
+  {
+    "name": "Gasoline",
+    "released": 2021
+  },
+  {
+    "name": "Getaway Car",
+    "released": 2017
+  },
+  {
+    "name": "Gorgeous",
+    "released": 2017
+  },
+  {
+    "name": "Half of My Heart",
+    "released": 2009
+  },
+  {
+    "name": "Highway Don't Care",
+    "released": 2013
+  },
+  {
+    "name": "I Bet You Think About Me",
+    "released": 2021
+  },
+  {
+    "name": "I Did Something Bad",
+    "released": 2017
+  },
+  {
+    "name": "I Don't Wanna Live Forever",
+    "released": 2016
+  },
+  {
+    "name": "I Knew You Were Trouble",
+    "released": 2012
+  },
+  {
+    "name": "I Want You Back",
+    "released": 2011
+  },
+  {
+    "name": "Innocent",
+    "released": 2010
+  },
+  {
+    "name": "Invisible String",
+    "released": 2020
+  },
+  {
+    "name": "Ivy",
+    "released": 2020
+  },
+  {
+    "name": "The Joker and the Queen",
+    "released": 2022
+  },
+  {
+    "name": "The Lakes",
+    "released": 2020
+  },
+  {
+    "name": "Last Christmas",
+    "released": 2007
+  },
+  {
+    "name": "The Last Great American Dynasty",
+    "released": 2020
+  },
+  {
+    "name": "The Last Time",
+    "released": 2012
+  },
+  {
+    "name": "Long Live",
+    "released": 2012
+  },
+  {
+    "name": "Long Story Short",
+    "released": 2020
+  },
+  {
+    "name": "Look What You Made Me Do",
+    "released": 2017
+  },
+  {
+    "name": "Love Story",
+    "released": 2008
+  },
+  {
+    "name": "Lover",
+    "released": 2019
+  },
+  {
+    "name": "Lover (Remix)",
+    "released": 2019
+  },
+  {
+    "name": "Mad Woman",
+    "released": 2020
+  },
+  {
+    "name": "The Man",
+    "released": 2019
+  },
+  {
+    "name": "Marjorie",
+    "released": 2020
+  },
+  {
+    "name": "Me!",
+    "released": 2019
+  },
+  {
+    "name": "Mean",
+    "released": 2010
+  },
+  {
+    "name": "Message in a Bottle",
+    "released": 2021
+  },
+  {
+    "name": "Mine",
+    "released": 2010
+  },
+  {
+    "name": "Miss Americana & the Heartbreak Prince",
+    "released": 2019
+  },
+  {
+    "name": "Mr. Perfectly Fine",
+    "released": 2021
+  },
+  {
+    "name": "My Tears Ricochet",
+    "released": 2020
+  },
+  {
+    "name": "New Romantics",
+    "released": 2014
+  },
+  {
+    "name": "New Year's Day",
+    "released": 2017
+  },
+  {
+    "name": "No Body, No Crime",
+    "released": 2020
+  },
+  {
+    "name": "Nothing New",
+    "released": 2021
+  },
+  {
+    "name": "Only the Young",
+    "released": 2020
+  },
+  {
+    "name": "Our Song",
+    "released": 2006
+  },
+  {
+    "name": "Ours",
+    "released": 2010
+  },
+  {
+    "name": "Out of the Woods",
+    "released": 2014
+  },
+  {
+    "name": "Picture to Burn",
+    "released": 2006
+  },
+  {
+    "name": "...Ready for It?",
+    "released": 2017
+  },
+  {
+    "name": "Red",
+    "released": 2012
+  },
+  {
+    "name": "Renegade",
+    "released": 2021
+  },
+  {
+    "name": "Ronan",
+    "released": 2012
+  },
+  {
+    "name": "Safe & Sound",
+    "released": 2011
+  },
+  {
+    "name": "Santa Baby",
+    "released": 2007
+  },
+  {
+    "name": "September",
+    "released": 2018
+  },
+  {
+    "name": "Seven",
+    "released": 2020
+  },
+  {
+    "name": "Shake It Off",
+    "released": 2014
+  },
+  {
+    "name": "Should've Said No",
+    "released": 2006
+  },
+  {
+    "name": "Silent Night",
+    "released": 2007
+  },
+  {
+    "name": "Soon You'll Get Better",
+    "released": 2019
+  },
+  {
+    "name": "Sparks Fly",
+    "released": 2010
+  },
+  {
+    "name": "Speak Now",
+    "released": 2010
+  },
+  {
+    "name": "State of Grace",
+    "released": 2012
+  },
+  {
+    "name": "The Story of Us",
+    "released": 2010
+  },
+  {
+    "name": "Style",
+    "released": 2014
+  },
+  {
+    "name": "Sweeter than Fiction",
+    "released": 2013
+  },
+  {
+    "name": "Teardrops on My Guitar",
+    "released": 2006
+  },
+  {
+    "name": "That's When",
+    "released": 2021
+  },
+  {
+    "name": "This Is Me Trying",
+    "released": 2020
+  },
+  {
+    "name": "This Love",
+    "released": 2014
+  },
+  {
+    "name": "Tim McGraw",
+    "released": 2006
+  },
+  {
+    "name": "Today Was a Fairytale",
+    "released": 2010
+  },
+  {
+    "name": "Two Is Better Than One",
+    "released": 2009
+  },
+  {
+    "name": "Umbrella",
+    "released": 2008
+  },
+  {
+    "name": "We Are Never Ever Getting Back Together",
+    "released": 2012
+  },
+  {
+    "name": "Welcome to New York",
+    "released": 2014
+  },
+  {
+    "name": "White Christmas",
+    "released": 2007
+  },
+  {
+    "name": "White Horse",
+    "released": 2008
+  },
+  {
+    "name": "Wildest Dreams",
+    "released": 2014
+  },
+  {
+    "name": "Willow",
+    "released": 2020
+  },
+  {
+    "name": "You All Over Me",
+    "released": 2021
+  },
+  {
+    "name": "You Belong with Me",
+    "released": 2008
+  },
+  {
+    "name": "You Need to Calm Down",
+    "released": 2019
+  },
+  {
+    "name": "You're Not Sorry",
+    "released": 2008
+  }
+]
