@@ -1,8 +1,13 @@
 const personPrototype = {
   greet() {
-    console.log("hello!");
+    console.log(`Hello! My name is ${this.name}`);
   },
 };
 
-const carl = Object.create(personPrototype);
-carl.greet();
+let object = Object.create(personPrototype);
+console.log(object);
+
+do {
+  object = Object.getPrototypeOf(object);
+  console.log(object);
+} while (object);
