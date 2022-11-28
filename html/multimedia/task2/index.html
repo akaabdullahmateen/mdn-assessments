@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <link rel="stylesheet"
+          href="style.css" />
+  </head>
+
+  <body>
+    <h1>Video embed</h1>
+    <video controls
+           width="320"
+           height="240"
+           muted>
+      <source src="media/video.mp4"
+              type="video/mp4" />
+      <source src="media/video.webm"
+              type="video/webm" />
+      <track kind="subtitles"
+             src="media/subtitles_en.vtt"
+             srclang="en"
+             label="English" />
+      <p>Your browser does not support HTML5 video. Here is a <a href="media/video.mp4"
+           download="video.mp4">direct link to video file</a> instead.</p>
+    </video>
+  </body>
+
+</html>

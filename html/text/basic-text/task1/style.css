@@ -1,0 +1,21 @@
+h1,
+h2 {
+  color: purple;
+}
+
+p {
+  color: gray;
+}
+
+dl {
+  margin-left: 2rem;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+dl {
+  margin-bottom: 1rem;
+}
