@@ -1,0 +1,23 @@
+@layer yellow,
+green,
+purple;
+
+@layer yellow {
+  #outer div ul .nav a {
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
+
+@layer purple {
+  div div li a {
+    color: rebeccapurple;
+  }
+}
+
+@layer green {
+  a {
+    color: lightgreen;
+  }
+}
